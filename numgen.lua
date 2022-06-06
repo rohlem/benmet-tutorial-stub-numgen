@@ -1,3 +1,5 @@
+assert(#arg == 3, "expected 3 arguments: <noise type ('w' or 'p')>, <filter (0 or 1)>, <amount (integer)>")
+
 local noise_type = arg[1]
 local filter = arg[2]
 local amount = tonumber(arg[3])
